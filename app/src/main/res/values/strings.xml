@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Event Thing</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="event_ann_footer">Create an Announcement</string>
+    <string name="event_mem_footer">Add a Member</string>
+    <string name="event_newann_title">Create your Announcement…</string>
+    <string name="event_newmem_title">Add Member…</string>
+    <string name="create">Create!</string>
+    <string name="add">Add!</string>
+    <string name="event_newann_hint">Enter your message here…</string>
+    <string name="event_newann_checkbox">Pin this Announcement?</string>
+    <string name="more_vert">&#8942;</string>
+    <string name="admin_option_pin">Pin Announcement</string>
+    <string name="admin_option_unpin">Unpin Announcement</string>
+    <string name="admin_option_delete">Delete Announcement</string>
+    <string name="event_newcomment_hint">Type a new comment here…</string>
+    <string name="event_newcomment_post">Post!</string>
+    <string name="filler_name">What is this?</string>
+    <string name="filler_description">Desc?</string>
+    <string name="event_newmem_hint">Member Name/Phone Number</string>
+    <string name="event_newmem_admin">Make This Member Admin?</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorDarkBlue</item>
+        <item name="colorAccent">@color/colorPlatinum</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AdminButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/test</item>
+
+    </style>
+
+    <style name="Dialog_New" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlNormal">@color/colorBlue</item>
+        <item name="colorControlActivated">@color/colorBlue</item>
+        <item name="colorControlHighlight">@color/colorBlue</item>
+        <item name="android:colorAccent">@color/colorBlue</item>
+    </style>
+
+</resources>

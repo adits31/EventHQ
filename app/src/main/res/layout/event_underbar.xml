@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_underbar"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:gravity="center_horizontal"
+    android:background="@color/colorLightBlue">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_under_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/test"
+        android:contentDescription="@string/admin_option_unpin" />
+
+    <RelativeLayout
+        android:id="@+id/toolbar_under_container"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/toolbar_under_image"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/toolbar_under_name"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:text="testName" />
+
+        <TextView
+            android:id="@+id/toolbar_under_date"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/toolbar_under_name"
+            android:layout_toRightOf="@+id/toolbar_under_name"
+            android:text="testDate" />
+
+        <TextView
+            android:id="@+id/toolbar_under_host"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/toolbar_under_name"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:text="testHost" />
+
+        <TextView
+            android:id="@+id/toolbar_under_location"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/toolbar_under_date"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/toolbar_under_host"
+            android:layout_toRightOf="@+id/toolbar_under_host"
+            android:text="testLoc" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

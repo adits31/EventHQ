@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_ann_adminOptions">
+
+    <item
+        android:id="@+id/event_ann_adminOptions_one"
+        android:title="@string/admin_option_pin"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/event_ann_adminOptions_two"
+        android:title="@string/admin_option_unpin"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/event_ann_adminOptions_three"
+        android:title="@string/admin_option_delete"
+        android:orderInCategory="3"/>
+
+</menu>
